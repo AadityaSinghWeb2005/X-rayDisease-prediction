@@ -4,6 +4,7 @@ from tensorflow.keras.models import load_model
 import numpy as np
 from PIL import Image
 import io
+import pandas as pd
 
 # --- Configuration matching your notebook ---
 IMAGE_SIZE = (320, 320) 
