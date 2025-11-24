@@ -1,4 +1,3 @@
-echo '
 # 🩺 X-ray Chest Classification App
 
 An AI-powered application for classifying common thoracic pathologies from chest X-ray images. This project utilizes **Transfer Learning** with a fine-tuned Deep Learning model (specifically **EfficientNetB0**) and is deployed as a user-friendly web application using **Streamlit**.
