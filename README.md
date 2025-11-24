@@ -90,4 +90,4 @@ The model was developed using a standard Transfer Learning workflow:
 4.  **Initial Training:** Only the new classification head (GlobalAveragePooling2D, Dropout, Dense) was trained for 10 epochs using the `adam` optimizer and `sparse_categorical_crossentropy` loss.
 5.  **Fine-Tuning:** The base model was then unfrozen, and the entire model was recompiled with a **very low learning rate** (`1e-5`) to fine-tune the existing weights without corrupting the learned features. This phase used up to 20 epochs with `EarlyStopping` callbacks.
 '
-> README.md
+
